@@ -6,6 +6,7 @@
  * @since 20180306 9:40
  */
 //https://github.com/facebook/php-graph-sdk
+// require 'vendor/autoload.php';
 class Helper_GraphAPI
 {
     /*
