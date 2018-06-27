@@ -124,7 +124,7 @@ class Helper_GraphAPI
         );
         return self::explainData($response);
     }
-    // 1: reading sub; 2 register a subscription 3. delete a subsciption 
+    // 1: reading subscription; 2 register a subscription 3. delete a subsciption 
     public function get_subscription($params,$type = 1)
     {
         $url = sprintf($this->_api_urls['associate_app_page'],$params['facebook_page_id']);
